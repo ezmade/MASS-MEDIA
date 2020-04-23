@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mass Media News Page</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="top-bar">
+        <img src="images/mass-media-logo.png" alt="Mass Media" class="company-logo" width="80" height="81.17">
+        <div class="currency-rate">
+          <div class="currency">
+            <img src="images/dollar_symbol-24px.svg" alt="dollar symbol" class="currency-icon" width="25" id="dollar-icon">
+            <span class="currency-value" id="dollar-value">79.80</span>
+          </div>
+          <div class="currency">
+            <img src="images/euro_symbol-24px.svg" alt="euro symbol" class="currency-icon" width="25" id="euro-icon">
+            <span class="currency-value" id="euro-value">87.63</span>
+          </div>
+        </div>
+        <div class="search-panel">
+          <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+          <form action="">
+            <input type="search">
+            <i class="fa fa-search"></i>
+          </form>
+        </div>
+        <div class="menu-bar">
+          <a href="#education"><img src="images/school-24px.svg" alt="education" class="menu-icon" id="education" width="25"></a>
+          <a href="#call"><img src="images/call-24px.svg" alt="call" class="menu-icon" id="call" width="25"></a>
+          <a href="#notification"><img src="images/notifications_none-24px.svg" alt="notification" class="menu-icon" id="notification" width="25"></a>
+        </div>
+      </div>
+    </div>
+    <div class="nav-bar">
+      <a class="category" href="#region">Региональные новости</a>
+      <a class="category" href="#culture">Культура</a>
+      <a class="category" href="#technology">Технологии</a>
+      <a class="category" href="#politic">Политика</a>
+      <a class="category" href="#economy">Экономика</a>
+      <a class="category" href="#auto">Авто</a>
+      <a class="category" href="#property">Недвижимость</a>
+      <a class="category" href="#sport">Спорт</a>
+    </div>
+  </header>
+    
+  <main id="main-news-page">
+    <div class="news">
+      <div class="news-photo">
+        <img src="https://www.dialog.ua/images/news/d7cc5fa8c28d81b7ac00afefebed3b20.jpg" alt="news photo" class="photo">
+        <p class="photo-title">Автор фото: Иван Ткачёв</p>
+      </div>
+      <div class="news-text">
+        <h1 class="title">Минфин раскрыл среднюю цену Российской нефти за март</h1>
+        <p class="text">
+          Недополученные нефтегазовые доходы в апреле определялись исходя из фактически сложившихся котировок Urals в марте (в среднем $29,2 за баррель) и прогнозного объема добычи и экспорта нефти, нефтепродуктов, газа в апреле. Накануне партии Urals отправлялись по $14,4 за баррель (на базисе поставки cif, порт Роттердам).
+          <br>
+          <br>
+          В апреле отгрузки Urals из российских портов увеличатся почти на 13% относительно марта, до 2,11 млн баррелей в сутки, сообщало 30 марта ценовое агентство Argus Media. Рост поставок ожидается в связи с началом сезона ремонтов на НПЗ России, а также завершением действия сделки ОПЕК+.
+          <br>
+          <br>
+          Ранее агентство Bloomberg сообщило, что выпадающие доходы федерального бюджета на 2020 год составят, по оценке Минфина, 3–4 трлн руб. Но апрельская оценка выпадающих нефтегазовых доходов подразумевает гораздо меньший объем (менее 1 трлн руб. на весь год). В середине марта министр финансов Антон Силуанов говорил, что в 2020 году Минфин заберет из ФНБ лишь 600 млрд руб. благодаря демпферному механизму в нефтяной отрасли: нефтекомпании доплачивают в бюджет при низких международных ценах на нефть. Размер ликвидной части ФНБ, доступной для расходования на покрытие дефицита бюджета, на 1 марта оценивался в $150 млрд, или 11,5 трлн руб. по текущему курсу.
+        </p>
+      </div>
+      <div class="author-info">
+        <img src="https://img.banket.ru/service/logo/20010/ivan-tkachv.jpg" alt="author photo" class="author-photo" width="50">
+        <span class="author-name">Автор новости: Иван Ткачёв</span>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p class="company-name">Mass Media</p>
+      <div class="social-media">
+        <img src="images/vk_icon.svg" alt="VK" class="vk" width="36">
+        <img src="images/instagram_icon.svg" alt="Instagram" class="instagram" width="36">
+        <img src="images/telegram_icon.svg" alt="Telegram" class="telegram" width="36">
+      </div>
+      <p class="phone-number">Тел: +7 (951) 801 91-91</p>
+    </div>
+  </footer>
+</body>
+</html>
